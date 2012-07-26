@@ -1,0 +1,49 @@
+chersanya.tiddownload.Preferences
+chersanya.tiddownload.R$drawable: int ic_launcher
+chersanya.tiddownload.R$drawable: int local_icon
+chersanya.tiddownload.R$drawable: int vk_icon
+chersanya.tiddownload.R$id: int artist
+chersanya.tiddownload.R$id: int duration
+chersanya.tiddownload.R$id: int list_empty
+chersanya.tiddownload.R$id: int local_search_list
+chersanya.tiddownload.R$id: int online_search_list
+chersanya.tiddownload.R$id: int sd_artist
+chersanya.tiddownload.R$id: int sd_info
+chersanya.tiddownload.R$id: int sd_title
+chersanya.tiddownload.R$id: int song_details_root
+chersanya.tiddownload.R$id: int title
+chersanya.tiddownload.R$layout: int main
+chersanya.tiddownload.R$layout: int song_details_dialog
+chersanya.tiddownload.R$layout: int song_item
+chersanya.tiddownload.R$string: int app_name
+chersanya.tiddownload.R$string: int bad_response
+chersanya.tiddownload.R$string: int cancel
+chersanya.tiddownload.R$string: int download
+chersanya.tiddownload.R$string: int download_folder
+chersanya.tiddownload.R$string: int downloaded_s
+chersanya.tiddownload.R$string: int downloading
+chersanya.tiddownload.R$string: int enable_if_not_working
+chersanya.tiddownload.R$string: int info_loading
+chersanya.tiddownload.R$string: int no_internet
+chersanya.tiddownload.R$string: int nothing_found
+chersanya.tiddownload.R$string: int please_wait
+chersanya.tiddownload.R$string: int search_again
+chersanya.tiddownload.R$string: int search_s
+chersanya.tiddownload.R$string: int searching
+chersanya.tiddownload.R$string: int select_filename
+chersanya.tiddownload.R$string: int settings
+chersanya.tiddownload.R$string: int use_internal_downloader
+chersanya.tiddownload.R$xml: int preferences
+chersanya.tiddownload.TrackIDDownloadActivity
+de.quist.app.errorreporter.ExceptionReportActivity
+de.quist.app.errorreporter.ExceptionReportService
+de.quist.app.errorreporter.ReportingActivity
+de.quist.app.errorreporter.ReportingActivityGroup
+de.quist.app.errorreporter.ReportingAliasActivity
+de.quist.app.errorreporter.ReportingExpandableListActivity
+de.quist.app.errorreporter.ReportingIntentService
+de.quist.app.errorreporter.ReportingLauncherActivity
+de.quist.app.errorreporter.ReportingListActivity
+de.quist.app.errorreporter.ReportingPreferenceActivity
+de.quist.app.errorreporter.ReportingService
+de.quist.app.errorreporter.ReportingTabActivity

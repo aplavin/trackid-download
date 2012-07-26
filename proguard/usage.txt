@@ -1,0 +1,50 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+chersanya.tiddownload.BuildConfig
+chersanya.tiddownload.CTX:
+    5:5:public CTX()
+chersanya.tiddownload.LocalEngine:
+    20:20:public LocalEngine()
+chersanya.tiddownload.MusicSharaEngine
+chersanya.tiddownload.R
+chersanya.tiddownload.R$attr
+chersanya.tiddownload.R$drawable
+chersanya.tiddownload.R$id
+chersanya.tiddownload.R$layout
+chersanya.tiddownload.R$string
+chersanya.tiddownload.R$xml
+chersanya.tiddownload.Utils:
+    26:26:public Utils()
+de.quist.app.errorreporter.ExceptionReportActivity:
+    private static final int DEFAULT_DIALOG_ICON
+    private static final int DEFAULT_POSITIVE_BUTTON_TEXT
+    private static final int DEFAULT_NEGATIVE_BUTTON_TEXT
+de.quist.app.errorreporter.ExceptionReportService:
+    static final int DEFAULT_MAXIMUM_BACKOFF_EXPONENT
+    static final int DEFAULT_MAXIMUM_RETRY_COUNT
+    static final boolean DEFAULT_REPORT_ON_FROYO
+    private static final java.lang.String DEFAULT_FIELDS_TO_SEND
+de.quist.app.errorreporter.ExceptionReporter:
+    private static final int DEFAULT_NOTIFICATION_ICON
+de.quist.app.errorreporter.ReportingActivity:
+    31:31:protected de.quist.app.errorreporter.ExceptionReporter getExceptionReporter()
+de.quist.app.errorreporter.ReportingActivityGroup:
+    11:11:protected de.quist.app.errorreporter.ExceptionReporter getExceptionReporter()
+de.quist.app.errorreporter.ReportingAliasActivity:
+    11:11:protected de.quist.app.errorreporter.ExceptionReporter getExceptionReporter()
+de.quist.app.errorreporter.ReportingExpandableListActivity:
+    11:11:protected de.quist.app.errorreporter.ExceptionReporter getExceptionReporter()
+de.quist.app.errorreporter.ReportingIntentService:
+    34:34:protected de.quist.app.errorreporter.ExceptionReporter getExceptionReporter()
+de.quist.app.errorreporter.ReportingLauncherActivity:
+    11:11:protected de.quist.app.errorreporter.ExceptionReporter getExceptionReporter()
+de.quist.app.errorreporter.ReportingListActivity:
+    11:11:protected de.quist.app.errorreporter.ExceptionReporter getExceptionReporter()
+de.quist.app.errorreporter.ReportingPreferenceActivity:
+    11:11:protected de.quist.app.errorreporter.ExceptionReporter getExceptionReporter()
+de.quist.app.errorreporter.ReportingService:
+    private de.quist.app.errorreporter.ExceptionReporter exceptionReporter
+    30:30:protected de.quist.app.errorreporter.ExceptionReporter getExceptionReporter()
+    35:37:public void onCreate()
+de.quist.app.errorreporter.ReportingTabActivity:
+    11:11:protected de.quist.app.errorreporter.ExceptionReporter getExceptionReporter()

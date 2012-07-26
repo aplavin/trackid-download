@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="chersanya.tiddownload"
+    android:versionCode="120"
+    android:versionName="1.2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".TrackIDDownloadActivity"
+            android:configChanges="orientation|screenLayout|keyboard|keyboardHidden"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="trackid.playfon.ru"
+                    android:scheme="http" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.amazon.com"
+                    android:pathPrefix="/s/"
+                    android:scheme="http" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="m.7digital.com"
+                    android:pathPrefix="/FI/match/"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Preferences" />
+
+        <service
+            android:name="de.quist.app.errorreporter.ExceptionReportService"
+            android:process=":exceptionReporter" />
+
+        <activity
+            android:name="de.quist.app.errorreporter.ExceptionReportActivity"
+            android:process=":exceptionReporter"
+            android:theme="@android:style/Theme.NoDisplay" />
+
+        <meta-data
+            android:name="de.quist.app.errorreporter.targetUrl"
+            android:value="http://chersanya.appspot.com/error-report/TrackIDDownload" />
+    </application>
+
+</manifest>

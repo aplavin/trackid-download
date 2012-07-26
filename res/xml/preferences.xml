@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings" >
+
+    <EditTextPreference
+        android:defaultValue="/mnt/sdcard/"
+        android:key="download_folder"
+        android:title="@string/download_folder" />
+
+    <CheckBoxPreference
+        android:key="use_internal_downloader"
+        android:summary="@string/enable_if_not_working"
+        android:title="@string/use_internal_downloader" />
+
+</PreferenceScreen>

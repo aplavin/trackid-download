@@ -1,0 +1,218 @@
+chersanya.tiddownload.CTX -> chersanya.tiddownload.a:
+    android.app.Activity context -> a
+    android.app.Activity get() -> a
+    void set(android.app.Activity) -> a
+chersanya.tiddownload.IEngine -> chersanya.tiddownload.b:
+    chersanya.tiddownload.Song[] search(java.lang.String) -> a
+chersanya.tiddownload.LocalEngine -> chersanya.tiddownload.c:
+    chersanya.tiddownload.LocalEngine$LocalSong[] search(java.lang.String) -> a
+    java.util.List ngrams$319aad31(java.lang.String) -> b
+    java.lang.String concat(java.util.List,int,int) -> a
+    int common(java.util.Set,java.util.List) -> a
+chersanya.tiddownload.LocalEngine$1 -> chersanya.tiddownload.d:
+    int compare(java.lang.Object,java.lang.Object) -> compare
+chersanya.tiddownload.LocalEngine$LocalSong -> chersanya.tiddownload.e:
+    java.lang.String artist -> a
+    java.lang.String title -> b
+    java.lang.String display_name -> c
+    android.net.Uri uri -> d
+    int size -> e
+    int duration -> f
+    java.util.Date date_added -> g
+    java.lang.String toString() -> toString
+chersanya.tiddownload.Preferences -> chersanya.tiddownload.Preferences:
+    void onCreate(android.os.Bundle) -> onCreate
+    android.net.Uri getDownloadFolder() -> a
+    boolean isInternalDownloader() -> b
+chersanya.tiddownload.Song -> chersanya.tiddownload.f:
+    java.lang.String artist -> a
+    java.lang.String title -> b
+    android.net.Uri uri -> c
+    int duration -> d
+    int size -> e
+    java.lang.String getDurationStr() -> a
+    int getSize() -> b
+chersanya.tiddownload.SongDialog -> chersanya.tiddownload.g:
+    android.app.ProgressDialog progressDialog -> a
+    chersanya.tiddownload.Song song -> b
+    void show() -> a
+    android.app.ProgressDialog access$0(chersanya.tiddownload.SongDialog) -> a
+    chersanya.tiddownload.Song access$1(chersanya.tiddownload.SongDialog) -> b
+chersanya.tiddownload.SongDialog$1 -> chersanya.tiddownload.h:
+    chersanya.tiddownload.SongDialog this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+chersanya.tiddownload.SongDialog$1$1 -> chersanya.tiddownload.i:
+    chersanya.tiddownload.SongDialog$1 this$1 -> a
+    java.lang.String[] val$filenames -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+chersanya.tiddownload.SongDialog$2 -> chersanya.tiddownload.j:
+    chersanya.tiddownload.SongDialog this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+chersanya.tiddownload.SongDialog$DownloadTask -> chersanya.tiddownload.k:
+    java.lang.String url -> b
+    java.lang.String destination -> c
+    chersanya.tiddownload.SongDialog this$0 -> a
+    java.lang.Void doInBackground$10299ca() -> a
+    void onPreExecute() -> onPreExecute
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+    void onProgressUpdate(java.lang.Object[]) -> onProgressUpdate
+chersanya.tiddownload.SongDialog$SizeLoadTask -> chersanya.tiddownload.l:
+    android.view.View layout -> b
+    chersanya.tiddownload.SongDialog this$0 -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+chersanya.tiddownload.SongsAdapter -> chersanya.tiddownload.m:
+    android.content.Context context -> a
+    chersanya.tiddownload.Song[] songs -> b
+    android.view.View$OnClickListener clickListener -> c
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+chersanya.tiddownload.SongsAdapter$1 -> chersanya.tiddownload.n:
+    chersanya.tiddownload.SongsAdapter this$0 -> a
+    void onClick(android.view.View) -> onClick
+chersanya.tiddownload.TrackIDDownloadActivity -> chersanya.tiddownload.TrackIDDownloadActivity:
+    java.lang.String artist -> c
+    java.lang.String title -> d
+    java.lang.String searchString -> a
+    chersanya.tiddownload.IEngine engine -> e
+    de.quist.app.errorreporter.ExceptionReporter exceptionReporter -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void doSearch() -> a
+    chersanya.tiddownload.IEngine access$0(chersanya.tiddownload.TrackIDDownloadActivity) -> a
+chersanya.tiddownload.TrackIDDownloadActivity$1 -> chersanya.tiddownload.o:
+    chersanya.tiddownload.TrackIDDownloadActivity this$0 -> a
+    android.app.ProgressDialog val$pd -> b
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+chersanya.tiddownload.TrackIDDownloadActivity$LocalSongsAdapter -> chersanya.tiddownload.p:
+    android.content.Context context -> b
+    chersanya.tiddownload.LocalEngine$LocalSong[] songs -> c
+    chersanya.tiddownload.TrackIDDownloadActivity this$0 -> a
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+chersanya.tiddownload.Utils -> chersanya.tiddownload.q:
+    java.lang.String load(java.lang.String) -> a
+    java.lang.String getMD5(java.lang.String) -> b
+    void report(java.lang.String,java.lang.String,java.lang.String) -> a
+chersanya.tiddownload.Utils$1 -> chersanya.tiddownload.r:
+    java.lang.String val$action -> a
+    java.lang.String val$song -> b
+    java.lang.String val$data -> c
+    void run() -> run
+chersanya.tiddownload.VkEngine -> chersanya.tiddownload.s:
+    java.util.Random rnd -> a
+    java.util.ArrayList apps -> b
+    java.lang.String lastAppKey -> c
+    chersanya.tiddownload.Song[] search(java.lang.String) -> a
+chersanya.tiddownload.VkEngine$1 -> chersanya.tiddownload.t:
+    chersanya.tiddownload.VkEngine this$0 -> a
+chersanya.tiddownload.VkEngine$VkApp -> chersanya.tiddownload.u:
+    java.lang.String mid -> a
+    java.lang.String app_id -> b
+    java.lang.String key -> c
+    java.lang.String toString() -> toString
+de.quist.app.errorreporter.ExceptionReportActivity -> de.quist.app.errorreporter.ExceptionReportActivity:
+    java.lang.String META_DATA_DIALOG_TITLE -> a
+    java.lang.String META_DATA_DIALOG_TEXT -> b
+    java.lang.String META_DATA_DIALOG_ICON -> c
+    java.lang.String META_DATA_DIALOG_MESSAGE_HINT -> d
+    java.lang.String META_DATA_DIALOG_SEND_BUTTON -> e
+    java.lang.String META_DATA_DIALOG_CANCEL_BUTTON -> f
+    java.lang.CharSequence DEFAULT_DIALOG_TITLE -> g
+    java.lang.CharSequence DEFAULT_DIALOG_TEXT -> h
+    java.lang.String TAG -> i
+    android.content.pm.ApplicationInfo info -> j
+    void onCreate(android.os.Bundle) -> onCreate
+    java.lang.CharSequence getDialogPositiveButtonText() -> a
+    java.lang.CharSequence getDialogNegativeButtonText() -> b
+    java.lang.CharSequence getDialogTitle() -> c
+    java.lang.CharSequence getDialogText() -> d
+    java.lang.CharSequence getDialogMessageHint() -> e
+    android.graphics.drawable.Drawable getDialogIcon() -> f
+    android.content.pm.ApplicationInfo getPackageApplicationInfo() -> g
+de.quist.app.errorreporter.ExceptionReportActivity$1 -> de.quist.app.errorreporter.a:
+    de.quist.app.errorreporter.ExceptionReportActivity this$0 -> a
+    android.widget.EditText val$text -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+de.quist.app.errorreporter.ExceptionReportActivity$2 -> de.quist.app.errorreporter.b:
+    de.quist.app.errorreporter.ExceptionReportActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+de.quist.app.errorreporter.ExceptionReportService -> de.quist.app.errorreporter.ExceptionReportService:
+    java.lang.String ACTION_SEND_REPORT -> a
+    java.lang.String EXTRA_STACK_TRACE -> b
+    java.lang.String EXTRA_EXCEPTION_CLASS -> c
+    java.lang.String EXTRA_MESSAGE -> d
+    java.lang.String EXTRA_EXCEPTION_TIME -> e
+    java.lang.String EXTRA_THREAD_NAME -> f
+    java.lang.String EXTRA_EXTRA_MESSAGE -> g
+    java.lang.String EXTRA_MANUAL_REPORT -> h
+    java.lang.String EXTRA_AVAILABLE_MEMORY -> i
+    java.lang.String EXTRA_TOTAL_MEMORY -> j
+    java.lang.String EXTRA_CURRENT_RETRY_COUNT -> k
+    java.lang.String TAG -> l
+    java.lang.String META_DATA_MAXIMUM_RETRY_COUNT -> m
+    java.lang.String META_DATA_MAXIMUM_BACKOFF_EXPONENT -> n
+    java.lang.String META_DATA_REPORT_ON_FROYO -> o
+    java.lang.String META_DATA_FIELDS_TO_SEND -> p
+    void onHandleIntent(android.content.Intent) -> onHandleIntent
+    void addNameValuePair(java.util.List,java.util.Set,java.lang.String,java.lang.String) -> a
+    int getSdkInt() -> a
+    int getMaximumRetryCount() -> b
+    int getMaximumBackoffExponent() -> c
+    java.util.Set getFieldsToSend() -> d
+    boolean isReportOnFroyo() -> e
+de.quist.app.errorreporter.ExceptionReporter -> de.quist.app.errorreporter.c:
+    java.lang.String TAG -> a
+    java.lang.String META_DATA_NOTIFICATION_ICON -> b
+    java.lang.String META_DATA_NOTIFICATION_TITLE -> c
+    java.lang.String META_DATA_NOTIFICATION_TEXT -> d
+    java.lang.String META_DATA_NOTIFICATION_TICKER_TEXT -> e
+    java.lang.CharSequence DEFAULT_NOTIFICATION_TITLE -> f
+    java.lang.CharSequence DEFAULT_NOTIFICATION_TEXT -> g
+    java.lang.CharSequence DEFAULT_NOTIFICATION_TICKER_TEXT -> h
+    android.content.Context context -> i
+    de.quist.app.errorreporter.ExceptionReporter$Handler handler -> j
+    android.content.pm.ApplicationInfo applicationInfo -> k
+    de.quist.app.errorreporter.ExceptionReporter register(android.content.Context) -> a
+    void setContext(android.content.Context) -> b
+    void reportException(java.lang.Thread,java.lang.Throwable) -> a
+    void reportException(java.lang.Thread,java.lang.Throwable,java.lang.String) -> a
+    void reportException(java.lang.Thread,java.lang.Throwable,java.lang.String,boolean) -> a
+    android.content.pm.ApplicationInfo getApplicationInfo() -> b
+    void access$0$1c5a2fc5(de.quist.app.errorreporter.ExceptionReporter,java.lang.Thread,java.lang.Throwable) -> a
+    java.lang.String access$1() -> a
+de.quist.app.errorreporter.ExceptionReporter$Handler -> de.quist.app.errorreporter.d:
+    java.lang.Thread$UncaughtExceptionHandler subject -> b
+    de.quist.app.errorreporter.ExceptionReporter errorHandler -> c
+    de.quist.app.errorreporter.ExceptionReporter this$0 -> a
+    void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
+    de.quist.app.errorreporter.ExceptionReporter access$0(de.quist.app.errorreporter.ExceptionReporter$Handler) -> a
+de.quist.app.errorreporter.ReportingActivity -> de.quist.app.errorreporter.ReportingActivity:
+    de.quist.app.errorreporter.ExceptionReporter exceptionReporter -> a
+    void onCreate(android.os.Bundle) -> onCreate
+de.quist.app.errorreporter.ReportingActivityGroup -> de.quist.app.errorreporter.ReportingActivityGroup:
+    de.quist.app.errorreporter.ExceptionReporter exceptionReporter -> a
+    void onCreate(android.os.Bundle) -> onCreate
+de.quist.app.errorreporter.ReportingAliasActivity -> de.quist.app.errorreporter.ReportingAliasActivity:
+    de.quist.app.errorreporter.ExceptionReporter exceptionReporter -> a
+    void onCreate(android.os.Bundle) -> onCreate
+de.quist.app.errorreporter.ReportingExpandableListActivity -> de.quist.app.errorreporter.ReportingExpandableListActivity:
+    de.quist.app.errorreporter.ExceptionReporter exceptionReporter -> a
+    void onCreate(android.os.Bundle) -> onCreate
+de.quist.app.errorreporter.ReportingIntentService -> de.quist.app.errorreporter.ReportingIntentService:
+    de.quist.app.errorreporter.ExceptionReporter exceptionReporter -> a
+    void onCreate() -> onCreate
+de.quist.app.errorreporter.ReportingLauncherActivity -> de.quist.app.errorreporter.ReportingLauncherActivity:
+    de.quist.app.errorreporter.ExceptionReporter exceptionReporter -> a
+    void onCreate(android.os.Bundle) -> onCreate
+de.quist.app.errorreporter.ReportingListActivity -> de.quist.app.errorreporter.ReportingListActivity:
+    de.quist.app.errorreporter.ExceptionReporter exceptionReporter -> a
+    void onCreate(android.os.Bundle) -> onCreate
+de.quist.app.errorreporter.ReportingPreferenceActivity -> de.quist.app.errorreporter.ReportingPreferenceActivity:
+    de.quist.app.errorreporter.ExceptionReporter exceptionReporter -> a
+    void onCreate(android.os.Bundle) -> onCreate
+de.quist.app.errorreporter.ReportingService -> de.quist.app.errorreporter.ReportingService:
+de.quist.app.errorreporter.ReportingTabActivity -> de.quist.app.errorreporter.ReportingTabActivity:
+    de.quist.app.errorreporter.ExceptionReporter exceptionReporter -> a
+    void onCreate(android.os.Bundle) -> onCreate
